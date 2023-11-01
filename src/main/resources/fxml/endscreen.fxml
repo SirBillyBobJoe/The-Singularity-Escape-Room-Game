@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nz.ac.auckland.se206.controllers.EndScreenController">
+   <children>
+      <ImageView fitHeight="611.0" fitWidth="1114.0" layoutX="-6.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/endScreen/endScreen.png" />
+         </image>
+      </ImageView>
+      <Label contentDisplay="CENTER" layoutX="338.0" layoutY="39.0" text="The Singularity's Grip" textFill="#23699a">
+         <font>
+            <Font name="Consolas Bold Italic" size="35.0" />
+         </font>
+         <effect>
+            <DropShadow height="85.0" radius="42.7325" spread="0.7" width="87.93">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color></DropShadow>
+         </effect>
+      </Label>
+      <Label fx:id="lblExit" alignment="CENTER" layoutX="480.0" layoutY="326.0" onMouseClicked="#lblExitClicked" onMouseEntered="#lblExitEntered" onMouseExited="#lblExitExited" prefHeight="39.0" prefWidth="125.0" style="-fx-background-color: black; -fx-background-radius: 5px; -fx-border-color: #bfbfbf; -fx-padding: 7px; -fx-border-radius: 5px;" text="Exit" textFill="#bfbfbf">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblRestart" alignment="CENTER" layoutX="480.0" layoutY="400.0" onMouseClicked="#lblRestartClicked" onMouseEntered="#lblRestartEntered" onMouseExited="#lblRestartExited" prefHeight="39.0" prefWidth="125.0" style="-fx-background-color: black; -fx-background-radius: 5px; -fx-border-color: #bfbfbf; -fx-padding: 7px; -fx-border-radius: 5px;" text="Restart" textFill="#bfbfbf">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblState" alignment="CENTER" layoutX="24.0" layoutY="497.0" prefHeight="77.0" prefWidth="1053.0" style="-fx-background-color: rgba(0,0,0,0.7); -fx-background-radius: 5px; -fx-padding: 7px; -fx-border-radius: 5px;" text="Time's up, you didn't make it!" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Consolas" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="89.0" fitWidth="89.0" layoutX="29.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/endScreen/gameMasterClear.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
