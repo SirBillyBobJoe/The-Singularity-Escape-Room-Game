@@ -105,13 +105,6 @@
 			<version>17.0.0.1</version>
 		</dependency>
 		<dependency>
-			<groupId>nz.ac.auckland</groupId>
-			<artifactId>codestyle</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>${pom.basedir}/libs/codestyle.jar</systemPath>
-		</dependency>
-		<dependency>
 			<artifactId>freetts</artifactId>
 			<groupId>net.sf.sociaal</groupId>
 			<version>1.2.2</version>
