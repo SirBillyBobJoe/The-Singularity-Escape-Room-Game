@@ -4,8 +4,11 @@ Welcome to an immersive riddle escape room game where your challenge is to solve
 
 ### Overview
 Setting: Trapped in a virtual room with various puzzles and riddles.
+
 Objective: Solve the puzzles to escape.
+
 Gameplay: Interact through text commands; ChatGPT responds and guides.
+
 Role of ChatGPT: Acts as a game master, providing narrative, hints, and reacting to your choices.
 
 ## To run the game
