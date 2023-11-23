@@ -20,6 +20,7 @@ navigate to the folder directory and execute the following command:
 Once you have your own ChatGPT apiKey navigate to the file `apiproxy.config` and paste your api key in the section that says `apiKey`
 
 ## Gameplay Images
+![Main Interface](images/demo.gif)
 ![Main Interface](images/image.png)
 ![Main Interface](images/image1.png)
 ![Main Interface](images/image2.png)
